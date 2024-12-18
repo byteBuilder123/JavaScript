@@ -64,5 +64,16 @@ let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
 
+// prefix and postfix
+let num = 3;
+
+// Postfix
+console.log(num++); // 3 (uses original value)
+console.log(num);   // 4 (value after increment)
+
+// Prefix
+console.log(++num); // 5 (increment first, then use)
+console.log(num);   // 5 (already incremented)
+
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
